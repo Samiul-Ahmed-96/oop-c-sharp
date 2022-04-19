@@ -57,6 +57,12 @@ namespace classAndObejctOOP
                     break;
             }
 
+            //Class
+            //Constructor
+            Animal tiger = new Animal("Tiger", 4, "WWWWWWW");
+
+            tiger.printDetails();
+
             //Console.WriteLine(Pi);
             //Console.WriteLine(zidan.name);
             //Console.WriteLine(zidan.health);
