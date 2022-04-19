@@ -4,13 +4,6 @@ namespace classAndObejctOOP
 {
     internal class Program
     {
-        //Enum
-        public enum MailDetails
-        {
-            regularEmail = 2,
-            regularAirMail = 5,
-            expressMail = 12,
-        }
         static void Main(string[] args)
         {
             Console.WriteLine("OOP _ Class and Object");
@@ -45,13 +38,29 @@ namespace classAndObejctOOP
                 Console.WriteLine(names[i]);
             }
 
-            var expressMail = MailDetails.expressMail;
+            var season = Season.Winter;
 
-            Console.WriteLine(email);   
-            Console.WriteLine(Pi);
-            Console.WriteLine(zidan.name);
-            Console.WriteLine(zidan.health);
-            Console.WriteLine(result);
+            switch (season)
+            {
+                case Season.Summer:
+                    Console.WriteLine("this is summer");
+                    break;
+                case Season.Rainy:
+                    Console.WriteLine("this is Rainy");
+                    break;
+                case Season.Winter:
+                    Console.WriteLine("this is Winter");
+                    break;
+
+                    default:
+                    Console.WriteLine("There is no season");
+                    break;
+            }
+
+            //Console.WriteLine(Pi);
+            //Console.WriteLine(zidan.name);
+            //Console.WriteLine(zidan.health);
+            //Console.WriteLine(result);
             Console.ReadLine();
         }
     }
