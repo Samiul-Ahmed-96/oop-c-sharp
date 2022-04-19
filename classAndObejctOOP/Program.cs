@@ -2,6 +2,7 @@
 
 namespace classAndObejctOOP
 {
+    
     internal class Program
     {
         static void Main(string[] args)
@@ -61,13 +62,19 @@ namespace classAndObejctOOP
             //Constructor
             Animal tiger = new Animal("Tiger", 4, "WWWWWWW");
 
+
+
             tiger.printDetails();
 
-            //Console.WriteLine(Pi);
-            //Console.WriteLine(zidan.name);
-            //Console.WriteLine(zidan.health);
-            //Console.WriteLine(result);
-            Console.ReadLine();
+            animalTwo hilsha = new animalTwo("Hilsha", 3,"Ddd" , "Padma","gray");
+            hilsha.printDetails();
+
+            
+        //Console.WriteLine(Pi);
+        //Console.WriteLine(zidan.name);
+        //Console.WriteLine(zidan.health);
+        //Console.WriteLine(result);
+        Console.ReadLine();
         }
     }
 }

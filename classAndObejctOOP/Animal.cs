@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace classAndObejctOOP
 {
-    internal class Animal
+    public class Animal
     {
         public string name;
         public int age;
@@ -18,13 +18,17 @@ namespace classAndObejctOOP
         }
         //Class
         //Constructor
-        public Animal(string _name , int _age, string _voice)
+        public Animal() { 
+        }
+        public Animal(string _name, int _age, string _voice)
         {
             name = _name;
             age = _age;
             voice = _voice;
 
         }
+
     }
+   
 
 }
