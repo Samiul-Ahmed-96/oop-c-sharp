@@ -10,6 +10,7 @@ namespace classAndObejctOOP
     {
         public string name = "Anik";
         public int health = 78;
-        public bool isBrazillian = true; 
+        public bool isBrazillian = true;
+      
     }
 }
