@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace classAndObejctOOP
 {
     public class Player
-    {
+    {                                       
         public string name = "Anik";
         public int health = 78;
         public bool isBrazillian = true;

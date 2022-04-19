@@ -1,6 +1,7 @@
 ﻿using System;
 
 namespace classAndObejctOOP
+
 {
     
     internal class Program
@@ -61,13 +62,28 @@ namespace classAndObejctOOP
             //Class
             //Constructor
             Animal tiger = new Animal("Tiger", 4, "WWWWWWW");
-
-
-
             tiger.printDetails();
 
+
+            //Inhertance object
             animalTwo hilsha = new animalTwo("Hilsha", 3,"Ddd" , "Padma","gray");
             hilsha.printDetails();
+
+            //Getter Setter
+            
+            Income moneyleft = new Income();
+            moneyleft.debit(2000);
+
+            moneyleft.debit(5000);
+
+
+
+            //moneyleft.income = moneyleft.income - 430000;
+            //moneyleft.income = 10000;
+
+            moneyleft.income = 6000;
+
+            Console.WriteLine(moneyleft.income);
 
             
         //Console.WriteLine(Pi);
