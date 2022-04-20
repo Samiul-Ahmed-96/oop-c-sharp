@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace classAndObejctOOP
 {
-     class Bmw : Car
+    sealed class Bmw : Car
     {
         private string brand = "Bmw";
 
@@ -24,7 +24,7 @@ namespace classAndObejctOOP
             Console.WriteLine("Hp : " + Hp + "Color : " + Color + "Model : " + Model);
         }
 
-        public override void repairDetails()
+        public sealed override void repairDetails()
         {
             Console.WriteLine(Model+ "car is repaired");
         }

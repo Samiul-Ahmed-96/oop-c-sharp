@@ -95,9 +95,13 @@ namespace classAndObejctOOP
             };
 
             foreach (var car in cars) {
-                car.repairDetails();
+                car.repairDetails(); 
 
             }
+
+            //sealed
+            A3 a3 = new A3(230, "Grey", "A3999");
+            a3.repairDetails();
             
         //Console.WriteLine(Pi);
         //Console.WriteLine(zidan.name);
