@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace classAndObejctOOP
 
@@ -85,6 +86,18 @@ namespace classAndObejctOOP
 
             Console.WriteLine(moneyleft.income);
 
+            //Polymorphism
+
+            var cars = new List<Car>
+            {
+                new Bmw(200,"Red","A3"),
+                new Audi(300,"BLue","A9")
+            };
+
+            foreach (var car in cars) {
+                car.repairDetails();
+
+            }
             
         //Console.WriteLine(Pi);
         //Console.WriteLine(zidan.name);
